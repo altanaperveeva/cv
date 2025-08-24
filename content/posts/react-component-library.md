@@ -1,51 +1,35 @@
 ---
-title: "React Component Library"
-description: "Reusable component library with TypeScript support, Storybook documentation, comprehensive testing suite, and automated publishing pipeline for design system consistency."
-date: "2024-02-05"
+title: "Enterprise Travel UI System"
+description: "Designed and implemented responsive UI system for enterprise-level travel solutions using React and Next.js, ensuring consistent user experience across the platform with multilingual support."
+date: "2024-10-15"
 category: "frontend"
-technologies: ["React", "TypeScript", "Storybook", "Rollup", "Jest", "Chromatic"]
-github: "https://github.com/yourusername/component-library"
-demo: "https://components-storybook.com"
-featured: false
+technologies: ["React", "Next.js", "TypeScript", "PostgreSQL", "DeepL API", "Vercel"]
+github: "https://github.com/altana-perveeva/enterprise-travel-ui"
+demo: "https://travel-ui-demo.com"
+featured: true
 published: true
 ---
 
-# React Component Library
+# Enterprise Travel UI System
 
-A comprehensive, production-ready React component library built with TypeScript, featuring extensive documentation, automated testing, and seamless integration capabilities.
+A comprehensive responsive UI system designed for enterprise-level travel solutions, featuring multilingual support and seamless API integration.
 
 ## Project Overview
 
-This component library was developed to standardize UI components across multiple applications, ensuring design consistency and accelerating development workflows. The library includes 40+ components with full TypeScript support and comprehensive documentation.
+This project focused on creating a comprehensive responsive UI system for enterprise-level travel solutions at ETS International, ensuring consistent user experience across all platform touchpoints while supporting multiple languages and integrating with various APIs.
 
-## Architecture & Design Principles
+## Key Achievements
 
-### Design System Foundation
-- **Atomic Design**: Components organized by complexity (atoms, molecules, organisms)
-- **Design Tokens**: Centralized color, typography, and spacing values
-- **Accessibility First**: WCAG 2.1 AA compliance for all components
-- **Mobile Responsive**: Built with responsive design patterns
+### Responsive Design Implementation
+- **Consistent User Experience**: Designed responsive UI components that work seamlessly across desktop, tablet, and mobile devices
+- **Enterprise-Level Standards**: Built scalable UI architecture following enterprise design patterns
+- **Cross-Platform Compatibility**: Ensured consistent functionality across different browsers and devices
 
-### Component Structure
-```
-src/
-├── components/
-│   ├── atoms/          # Basic building blocks
-│   │   ├── Button/
-│   │   ├── Input/
-│   │   └── Typography/
-│   ├── molecules/      # Component combinations
-│   │   ├── FormField/
-│   │   ├── SearchBox/
-│   │   └── Card/
-│   └── organisms/      # Complex components
-│       ├── DataTable/
-│       ├── Modal/
-│       └── Navigation/
-├── hooks/              # Reusable custom hooks
-├── utils/              # Utility functions
-└── tokens/             # Design tokens
-```
+### Technical Integration
+- **RESTful API Development**: Created and managed API connections to PostgreSQL databases
+- **Partner Integration**: Integrated partner endpoints for data sending and receiving workflows
+- **Multilingual Support**: Implemented DeepL API integration for automatic website translations
+- **CI/CD Pipeline**: Deployed applications on Vercel with continuous integration and deployment
 
 ## Key Components
 

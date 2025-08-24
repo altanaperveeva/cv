@@ -1,71 +1,70 @@
 ---
-title: "Sales Analytics Dashboard"
-description: "A comprehensive dashboard for analyzing sales data, customer behavior, and inventory management using React and Python. Features real-time data visualization and predictive analytics."
-date: "2024-01-15"
-category: "data-analytics"
-technologies: ["React", "Python", "PostgreSQL", "Chart.js", "Pandas"]
-github: "https://github.com/yourusername/sales-dashboard"
-demo: "https://sales-dashboard-demo.com"
+title: "Search API Performance Optimization"
+description: "Optimized Search API performance by 73% through Redis caching implementation, reducing database queries from 9+ to 1 per request."
+date: "2024-12-15"
+category: "backend"
+technologies: ["Redis", "PostgreSQL", "Node.js", "API Development", "Performance Optimization"]
+github: "https://github.com/altana-perveeva/search-api-optimization"
+demo: "https://search-api-demo.com"
 featured: true
 published: true
 ---
 
-# Sales Analytics Dashboard
+# Search API Performance Optimization
 
-A comprehensive analytics platform built to help businesses make data-driven decisions through powerful visualizations and insights.
+A performance optimization project that transformed a slow search API into a high-performance system through strategic caching implementation.
 
 ## Overview
 
-This project combines the power of React for the frontend interface with Python for backend data processing. The dashboard provides real-time insights into sales performance, customer behavior patterns, and inventory management.
+This project focused on dramatically improving the performance of a search API system at ETS International, reducing response times from 1400ms to 380ms through Redis caching implementation.
 
-## Key Features
+## Key Achievements
 
-- **Real-time Data Visualization**: Interactive charts and graphs that update in real-time
-- **Customer Behavior Analysis**: Track customer journeys and identify patterns
-- **Inventory Management**: Monitor stock levels and predict reorder points
-- **Predictive Analytics**: Forecast sales trends using machine learning models
-- **Export Capabilities**: Generate reports in PDF and Excel formats
+- **73% Performance Improvement**: Reduced API response time from 1400ms to 380ms
+- **Database Query Optimization**: Reduced queries from 9+ to 1 per request
+- **Redis Caching System**: Implemented strategic caching for frequently accessed data
+- **Real-time KPI Dashboards**: Created interactive dashboards for monitoring performance
 
 ## Technical Implementation
 
-### Frontend (React)
-- Built with React 18 and TypeScript for type safety
-- Chart.js for interactive data visualizations
-- Responsive design with Tailwind CSS
-- Real-time updates using WebSocket connections
+### Caching Strategy
+- Redis implementation for frequently queried search results
+- Strategic cache invalidation policies
+- Memory optimization for efficient cache utilization
+- Cache warming strategies for improved user experience
 
-### Backend (Python)
-- FastAPI for high-performance API endpoints
-- Pandas for data manipulation and analysis
-- SQLAlchemy for database operations
-- Background tasks for data processing
+### Database Architecture
+- Designed optimized database schema for KPI monitoring
+- Implemented efficient query patterns
+- Created data synchronization between PostgreSQL and Redis
+- QA and error handling mechanisms
 
-### Database
-- PostgreSQL for reliable data storage
-- Optimized queries for large datasets
-- Data warehouse structure for analytics
+### Performance Monitoring
+- Real-time KPI dashboards for business operations
+- Comprehensive metrics tracking for optimization opportunities
+- User metadata tracking for experience improvements
+- API stress testing implementation
 
-## Challenges Solved
+## Tools & Technologies
 
-1. **Performance**: Optimized queries to handle millions of records
-2. **Real-time Updates**: Implemented efficient WebSocket communication
-3. **Data Accuracy**: Built robust data validation and cleaning processes
-4. **User Experience**: Created intuitive interfaces for complex data
+- **Caching**: Redis for high-performance data caching
+- **Database**: PostgreSQL for reliable data storage
+- **Testing**: Apache Benchmark and wrk for stress testing
+- **Monitoring**: Custom KPI dashboards for real-time insights
+- **Integration**: Third-party partner endpoints
 
 ## Results
 
-- **40% improvement** in decision-making speed
-- **25% reduction** in inventory costs
-- **60% increase** in user engagement with analytics tools
-
-## Screenshots
-
-[Project screenshots would go here in a real implementation]
+- **73% faster API responses** (1400ms → 380ms)
+- **90% reduction** in database queries per request
+- **Improved user experience** through faster search results
+- **Enhanced system scalability** through efficient caching
 
 ## What I Learned
 
-This project taught me valuable lessons about:
-- Handling large datasets efficiently
-- Building scalable real-time applications
-- Creating intuitive data visualization interfaces
-- Collaborating with stakeholders to understand business needs
+This project enhanced my expertise in:
+- Performance optimization strategies
+- Redis caching implementation and management
+- Database query optimization
+- API stress testing and monitoring
+- Real-time dashboard development

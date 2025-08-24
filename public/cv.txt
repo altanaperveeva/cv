@@ -1,0 +1,37 @@
+
+
+Altana Perveeva +4915560690313 altana.perveeva05@gmail.com
+PROFILE
+Data Analyst with a strong foundation in Digital Business and Data Science, combining analytical expertise with full-stack development capabilities. Experienced in developing data-driven solutions, optimizing system performance, and creating business intelligence tools that bridge technical implementation with strategic decision-making.
+EXPERIENCE
+Working student- Data analyst, ETS InternationalNurnberg, Germany — Mar 2025-AUG 2025
+Optimized Search API performance by 73% (1400ms to 380ms) through Redis caching, reducing database queries from 9+ to 1 per request
+Designed database architecture for KPI monitoring, QA, and error handling, enabling relevant data access and manipulation for all stakeholders
+Created interactive, real-time KPI dashboards to facilitate business operations and metrics tracking
+Implemented bespoke user management system with metadata tracking to identify optimization opportunities and improve user experience
+Conducted API stress testing (Apache Benchmark, wrk) and integrated third-party partner endpoints
+Developed automated PostgreSQL-Redis data synchronization
+Comprehensive technical documentation
+
+Frontend development intern, Ets internationalNurnberg, Germany — Aug 2024-Mar 2025
+Designed and implemented responsive UI system for enterprise-level travel solutions using React and Next.js ensuring consistent user experience across the platform
+Created RESTful APIs and managed API connections to PostgreSQL databases
+Integrated partner endpoints for data sending and receiving workflows
+Implemented multilingual support through DeepL API integration for website translations
+Collaborated on backend tasks including database connections and API architecture
+Created comprehensive developer handoffs and technical documentation
+Deployed applications on Vercel with CI/CD pipelines
+
+EDUCATION
+University of Europe for applied sciences — Bachelor of Science in digital business and data science Potsdam, Germany
+SKILLS
+Languages: SQL, TypeScript, Python
+Technologies: PostgresSQL, React, Redis, Node.js, Next.js
+Tools & Platforms: Vercel, Postman, Zuplo (API Gateway), Clerk Auth, Git, Supabase, Confluence, Jira, Grafana, Jupyter, Cursor
+Competencies: Data Analysis, Frontend Development, API Development, Database Architecture, Performance Optimization, Business Intelligence, Technical Documentation
+                                                                        LANGUAGES
+English Advanced
+German Intermediate
+Russian Native 
+
+Ostendstrasse 161, 90482 Nurnberg, Germany      +4915560690313      altana.perveeva05@gmail.com

@@ -11,12 +11,11 @@ export default function Home() {
               <h1 className="text-5xl font-bold mb-6">
                 Hello, I'm{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-400">
-                  Your Name
+                  Altana Perveeva
                 </span>
               </h1>
               <p className="text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
-                Full-Stack Developer & Data Analyst passionate about creating innovative solutions 
-                and extracting meaningful insights from complex data.
+                Data Analyst with a strong foundation in Digital Business and Data Science, combining analytical expertise with full-stack development capabilities to create data-driven solutions and business intelligence tools.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
