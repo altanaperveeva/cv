@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getFeaturedProjects } from '@/lib/projects';
+import { getFeaturedProjects, getCategoryDisplayName } from '@/lib/projects';
 
 export default function Home() {
   const featuredProjects = getFeaturedProjects();
@@ -104,8 +104,7 @@ export default function Home() {
                   <div className="p-6">
                     <div className="flex items-center justify-between mb-2">
                       <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">
-                        {project.category === 'data-analytics' ? 'Data Analytics' : 
-                         project.category === 'frontend' ? 'Frontend' : 'Backend'}
+                        {getCategoryDisplayName(project.category)}
                       </span>
                       <span className="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">
                         Featured
