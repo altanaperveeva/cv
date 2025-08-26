@@ -5,8 +5,6 @@ import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
 import rehypeHighlight from 'rehype-highlight'
-import rehypeSlug from 'rehype-slug'
-import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeStringify from 'rehype-stringify'
 
 const postsDirectory = path.join(process.cwd(), 'content/posts')
@@ -93,8 +91,6 @@ export async function getProjectData(slug: string): Promise<Project> {
   const processedContent = await remark()
     .use(remarkGfm)
     .use(remarkRehype)
-    .use(rehypeSlug)
-    .use(rehypeAutolinkHeadings, { behavior: 'wrap' })
     .use(rehypeHighlight)
     .use(rehypeStringify)
     .process(matterResult.content)

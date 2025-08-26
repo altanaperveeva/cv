@@ -1,16 +1,12 @@
 ---
-title: "Search V2 API Performance Optimization"
-description: "Led complete performance optimization of critical Search V2 API, achieving 73% improvement in response time through strategic Redis caching and database query optimization."
+title: "Search API Performance Optimization"
+description: "Led complete performance optimization of critical Search API, achieving 73% improvement in response time through strategic Redis caching and database query optimization."
 date: "2025-06-25"
 category: "backend"
 technologies: ["Redis", "PostgreSQL", "Node.js", "TypeScript", "k6", "Grafana", "API Development", "Performance Optimization"]
 featured: true
 published: true
 ---
-
-# Search V2 API Performance Optimization
-
-Led the complete performance optimization of a critical Search V2 API, achieving a **73% improvement in response time** from 1400ms to ~380ms through strategic Redis caching implementation and database query optimization.
 
 ## The Challenge
 
