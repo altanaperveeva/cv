@@ -29,11 +29,13 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     
     setTheme(initialTheme)
     
-    // Apply initial theme class
+    // Apply initial theme with both class and data-theme
     if (initialTheme === 'dark') {
       document.documentElement.classList.add('dark')
+      document.documentElement.setAttribute('data-theme', 'dark')
     } else {
       document.documentElement.classList.remove('dark')
+      document.documentElement.setAttribute('data-theme', 'light')
     }
   }, [])
 
@@ -42,11 +44,13 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     
     localStorage.setItem('theme', theme)
     
-    // Add or remove the 'dark' class for Tailwind CSS
+    // Add or remove the 'dark' class and data-theme attribute
     if (theme === 'dark') {
       document.documentElement.classList.add('dark')
+      document.documentElement.setAttribute('data-theme', 'dark')
     } else {
       document.documentElement.classList.remove('dark')
+      document.documentElement.setAttribute('data-theme', 'light')
     }
   }, [theme, mounted])
 
