@@ -42,7 +42,6 @@ export default function RootLayout({
                 if (theme === 'dark') {
                   document.documentElement.classList.add('dark');
                 }
-                document.documentElement.setAttribute('data-theme', theme);
               })();
             `,
           }}

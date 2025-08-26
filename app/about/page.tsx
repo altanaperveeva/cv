@@ -1,17 +1,32 @@
+import Image from 'next/image'
+
 export default function About() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 min-h-screen">
       <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8">About Me</h1>
       
       <div className="space-y-6">
-        <div className="prose prose-lg max-w-none">
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Data Analyst with a strong foundation in Digital Business and Data Science, combining analytical expertise with full-stack development capabilities. Experienced in developing data-driven solutions, optimizing system performance, and creating business intelligence tools that bridge technical implementation with strategic decision-making.
-          </p>
+        <div className="flex flex-col md:flex-row gap-8 items-start">
+          <div className="md:w-1/4 flex justify-center md:justify-start">
+            <Image
+              src="/cv_image.jpeg"
+              alt="Profile photo"
+              width={200}
+              height={267}
+              className="rounded-lg shadow-lg"
+              priority
+            />
+          </div>
           
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            Recent Graduate of Bachelor of Science in Digital Business and Data Science at the University of Europe for applied sciences in Potsdam, Germany, who is currently gaining hands-on experience in enterprise-level data analytics and frontend development.
-          </p>
+          <div className="md:w-3/4 prose prose-lg max-w-none">
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              Data Analyst with a strong foundation in Digital Business and Data Science, combining analytical expertise with full-stack development capabilities. Experienced in developing data-driven solutions, optimizing system performance, and creating business intelligence tools that bridge technical implementation with strategic decision-making.
+            </p>
+            
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+              Recent Graduate of Bachelor of Science in Digital Business and Data Science at the University of Europe for applied sciences in Potsdam, Germany, who is currently gaining hands-on experience in enterprise-level data analytics and frontend development.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -60,8 +75,7 @@ export default function About() {
                 <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">Working Student - Data Analyst</h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">ETS International, Nurnberg • Mar 2025 - Aug 2025</p>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Optimized Search API performance by 73% (1400ms to 380ms) through Redis caching. 
-                  Designed database architecture for KPI monitoring and created interactive, real-time KPI dashboards to facilitate business operations.
+                  Focused on optimizing data infrastructure and developing business intelligence solutions. Worked extensively with database architecture, API performance optimization, and creating data visualization tools to support strategic decision-making across the organization.
                 </p>
               </div>
               
@@ -69,8 +83,7 @@ export default function About() {
                 <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">Frontend Development Intern</h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">ETS International, Nurnberg • Aug 2024 - Mar 2025</p>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Designed and implemented responsive UI system for enterprise-level travel solutions using React and Next.js. 
-                  Created RESTful APIs and managed API connections to PostgreSQL databases.
+                  Contributed to the development of enterprise-level web applications using modern frontend technologies. Gained hands-on experience in full-stack development, working with both user interface design and backend API integration to deliver comprehensive software solutions.
                 </p>
               </div>
             </div>
