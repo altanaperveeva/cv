@@ -27,13 +27,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900`}
-      >
-        <Script
-          id="theme-script"
-          strategy="beforeInteractive"
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
@@ -49,6 +45,10 @@ export default function RootLayout({
             `,
           }}
         />
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900`}
+      >
         <ThemeProvider>
           <Navbar />
           <main className="flex-grow">

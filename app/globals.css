@@ -46,3 +46,113 @@ html[data-theme="dark"] {
 html[data-theme="light"] {
   color-scheme: light;
 }
+
+/* Highlight.js theme for syntax highlighting */
+.hljs {
+  @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-4 rounded-lg overflow-x-auto;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  @apply text-blue-600 dark:text-blue-400 font-semibold;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  @apply text-green-600 dark:text-green-400;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  @apply text-gray-500 dark:text-gray-400 italic;
+}
+
+.hljs-number {
+  @apply text-purple-600 dark:text-purple-400;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  @apply text-orange-600 dark:text-orange-400;
+}
+
+.hljs-emphasis {
+  @apply italic;
+}
+
+.hljs-strong {
+  @apply font-bold;
+}
+
+/* Custom prose styles for better typography */
+.prose {
+  @apply max-w-none;
+}
+
+.prose h2 {
+  @apply text-3xl font-bold mt-12 mb-6 text-gray-900 dark:text-gray-100;
+}
+
+.prose h3 {
+  @apply text-2xl font-semibold mt-8 mb-4 text-gray-900 dark:text-gray-100;
+}
+
+.prose h4 {
+  @apply text-xl font-semibold mt-6 mb-3 text-gray-900 dark:text-gray-100;
+}
+
+.prose p {
+  @apply text-base leading-7 mb-6 text-gray-700 dark:text-gray-300;
+}
+
+.prose ul {
+  @apply my-6 space-y-2;
+}
+
+.prose ul li {
+  @apply text-gray-700 dark:text-gray-300 pl-2;
+}
+
+.prose ul li::before {
+  @apply text-blue-500 dark:text-blue-400;
+}
+
+.prose strong {
+  @apply text-gray-900 dark:text-gray-100 font-semibold;
+}
+
+.prose code:not(.hljs) {
+  @apply bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded text-sm text-blue-600 dark:text-blue-400;
+}
+
+.prose pre {
+  @apply bg-gray-900 dark:bg-gray-800 rounded-lg my-6 overflow-x-auto;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0 text-gray-100;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-blue-500 dark:border-blue-400 pl-4 my-6 italic text-gray-700 dark:text-gray-300;
+}
+
+.prose hr {
+  @apply my-12 border-gray-300 dark:border-gray-700;
+}
