@@ -7,7 +7,8 @@ const PDFViewer = dynamic(() => import('@/components/PDFViewer'), {
   loading: () => (
     <div className="my-8 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden bg-white dark:bg-gray-800 p-8">
       <div className="animate-pulse">
-        <div className="h-96 bg-gray-200 dark:bg-gray-700 rounded"></div>
+        <div className="h-96 bg-gray-200 dark:bg-gray-700 rounded mb-4"></div>
+        <div className="text-center text-gray-500 dark:text-gray-400">Loading PDF...</div>
       </div>
     </div>
   )
